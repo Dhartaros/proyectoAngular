@@ -28,6 +28,13 @@
 			this.review = {};
 		};
 	});
+	/* Directivas */
+	app.directive('productTitle', function() {
+		return {
+			restrict: 'E',
+			templateUrl: 'product-title.html'
+		};
+	});
 	/* Datos */
 	var gems = [
 		{
